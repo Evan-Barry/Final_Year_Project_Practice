@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3212954089939602640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3212954089939602646}
+  - component: {fileID: 3212954089939602647}
+  m_Layer: 0
+  m_Name: BaseGraphManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3212954089939602646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212954089939602640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3212954089939602647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212954089939602640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533813a1d08be614c8deeeb63ad1fe1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: 5
+  horAndVer: 1
+  diag: 1
+  vertices: []
+  edges: []
+  maxEdges: 0
+  maxEdgesPerVertex: 0
+  vertexGO: {fileID: 5406127995011072183, guid: 37f60ce0ca10a9b42a10058dd27404aa, type: 3}
+  edgeGO: {fileID: 7390062881851733673, guid: 295cf1f08217fdf44a120dd01138c70a, type: 3}
+  startingPointGO: {fileID: 0}
+  MST: []
+  disgardedEdges: []
+  vertexNumbering: 0
+  edgeResinsertionRate: 0.1
+  graphNo: 0

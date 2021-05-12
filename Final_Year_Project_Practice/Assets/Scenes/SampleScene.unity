@@ -132,10 +132,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 389398493}
+  - component: {fileID: 389398495}
   - component: {fileID: 389398492}
-  - component: {fileID: 389398494}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: LevelGraphManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,14 +150,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 389398491}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98ac0f808b64bd5489dd29304eeeb50b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8171507476e4343498499fde02272503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 5
-  vertexGO: {fileID: 5406127995011072183, guid: 37f60ce0ca10a9b42a10058dd27404aa, type: 3}
-  edgeGO: {fileID: 7390062881851733673, guid: 295cf1f08217fdf44a120dd01138c70a, type: 3}
-  edges: []
-  numOfEdges: 0
+  vertexData: []
 --- !u!4 &389398493
 Transform:
   m_ObjectHideFlags: 0
@@ -172,7 +168,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &389398494
+--- !u!114 &389398495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -181,21 +177,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 389398491}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 533813a1d08be614c8deeeb63ad1fe1e, type: 3}
+  m_Script: {fileID: 11500000, guid: fa48cb399a06bee4ba0877e7191124a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 10
-  horAndVer: 1
-  diag: 1
-  vertices: []
-  edges: []
-  maxEdges: 0
-  maxEdgesPerVertex: 0
-  vertexGO: {fileID: 5406127995011072183, guid: 37f60ce0ca10a9b42a10058dd27404aa, type: 3}
+  numOfBaseGraphs: 2
+  baseGraphGO: {fileID: 4387349201364138284, guid: 05b5bab963a8f6a4ba66fb4ba6dc48f8, type: 3}
+  baseGraphs: []
   edgeGO: {fileID: 7390062881851733673, guid: 295cf1f08217fdf44a120dd01138c70a, type: 3}
-  edgeSpawnRate: 1
-  MST: []
-  vertexNumbering: 0
+  size: 5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

@@ -102,7 +102,7 @@ public class baseGraphScript : MonoBehaviour
         for(int i = 0; i < numOfEdges; i++)
         {
             edges[i] = e;
-            edges[i].setActive(false);
+            //edges[i].setActive(false);
         }
     }
 

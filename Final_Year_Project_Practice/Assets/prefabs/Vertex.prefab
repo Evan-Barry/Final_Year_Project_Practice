@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2850186207813867092}
   m_Layer: 0
   m_Name: Vertex
-  m_TagString: Untagged
+  m_TagString: vertex
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,8 +109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 0
-  vertexNum: 
-  north: 0
-  south: 0
-  west: 0
-  east: 0
+  startingPoint: 0
+  row: 0
+  col: 0
+  edges: []
+  vertexName: 0
+  objectivePoint: 0

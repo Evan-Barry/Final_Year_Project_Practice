@@ -6,11 +6,11 @@ public class edgeScript : MonoBehaviour
 {
     public bool active;
     public int vertexARow, vertexACol, vertexBRow, vertexBCol;
-    public int weight, a, b;
+    public int weight, a, b, graphNo;
     // Start is called before the first frame update
     void Start()
     {
-        active = false;
+        
     }
 
     // Update is called once per frame
@@ -78,7 +78,7 @@ public class edgeScript : MonoBehaviour
 
     public string printStatus()
     {
-        return "[" + vertexARow + "," + vertexACol + "]-[" + vertexBRow + "," + vertexBCol + "]";
+        return graphNo + " - [" + vertexARow + "," + vertexACol + "]-[" + vertexBRow + "," + vertexBCol + "]";
     }
 
     public bool isTheSame(edgeScript e)
@@ -129,5 +129,15 @@ public class edgeScript : MonoBehaviour
     public int getWeight()
     {
         return weight;
+    }
+
+    public void setGraphNo(int num)
+    {
+        graphNo = num;
+    }
+
+    public int getGraphNo()
+    {
+        return graphNo;
     }
 }
